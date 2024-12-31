@@ -52,7 +52,7 @@ header h1:hover, a:hover {
 
 footer {
     background-color: #222;
-    padding: 16px;
+    padding: 17.5px;
 
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@ footer span {
 main {
     background-color: black;
     color: #fff;
-    padding: 6.5%;
+    padding: 6.7%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ h2 {
 #images{
     display: flex;
     flex-direction: row;
-    align-items: justify;
+    align-items: center;
     justify-content: center;
     
 }
@@ -116,6 +116,7 @@ h2 {
     font-size: 1.5em;
     color: chocolate;
     transition: none;
+    
 }
 
 .icone-2{
@@ -130,4 +131,19 @@ h2 {
     font-size: 1.5em;
     color: darkgoldenrod;
     transition: none;
+}
+
+.icone-1:hover {
+    transition: none;
+    color: chocolate;
+}
+
+.icone-2:hover {
+    transition: none;
+    color: cornflowerblue;
+}
+
+.icone-3:hover {
+    transition: none;
+    color: darkgoldenrod;
 }
