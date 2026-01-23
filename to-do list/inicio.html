@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./static do todo/css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Minhas Tarefas</h1>
+        
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Adicione uma nova tarefa..." />
+            <button id="addBtn">Adicionar</button>
+        </div>
+
+        <ul id="taskList"></ul>
+        <div id="emptyMessage" class="empty-message">Nenhuma tarefa. Comece adicionando uma!</div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <h3 id="totalTasks">0</h3>
+                <p>Total</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="completedTasks">0</h3>
+                <p>Concluídas</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="pendingTasks">0</h3>
+                <p>Pendentes</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./static do todo/js/script.js"></script>
+</body>
+</html>
