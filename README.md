@@ -29,11 +29,9 @@
 
 ---
 
-### 🧠 About Me
+### 🧠 Sobre mim
 
-- 🔭 Software Engineer at [NeXT](https://en.wikipedia.org/wiki/NeXT)
-- 🎓 Studied at Reed College (briefly)
-- ✨ Founder of [Apple](https://www.apple.com/)
-
----
+- 🔭 Dev front-end, com noção em back-end;
+- 🎓 Formado em Desenvolvimento de sistemas;
+- ✨ Buscando sempre melhorar minhas skills em programação.
 
