@@ -82,8 +82,7 @@ footer {
     }
 
     body {
-        height: auto;
-        flex-direction: column;
+        padding: 20%;
     }
 
     header a {
