@@ -150,3 +150,83 @@
             font-size: 12px;
             text-transform: uppercase;
         }
+
+        /* Responsividade para telas menores - 800x600 pra baixo */
+        @media (max-width: 800px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                max-width: 100%;
+                padding: 20px;
+                border-radius: 8px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+                margin-bottom: 20px;
+            }
+
+            .input-container {
+                flex-direction: column;
+                gap: 8px;
+                margin-bottom: 20px;
+            }
+
+            #taskInput {
+                padding: 10px 12px;
+                font-size: 14px;
+                width: 100%;
+            }
+
+            #addBtn {
+                padding: 10px 15px;
+                font-size: 14px;
+                width: 100%;
+            }
+
+            .task-item {
+                padding: 12px;
+                margin-bottom: 8px;
+                gap: 10px;
+            }
+
+            .checkbox {
+                width: 18px;
+                height: 18px;
+                flex-shrink: 0;
+            }
+
+            .task-text {
+                font-size: 14px;
+                word-break: break-word;
+            }
+
+            .delete-btn {
+                padding: 6px 10px;
+                font-size: 12px;
+                flex-shrink: 0;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 20px;
+                padding-top: 20px;
+            }
+
+            .stat-item h3 {
+                font-size: 20px;
+                margin-bottom: 3px;
+            }
+
+            .stat-item p {
+                font-size: 11px;
+            }
+
+            .empty-message {
+                padding: 30px 15px;
+                font-size: 14px;
+            }
+        }

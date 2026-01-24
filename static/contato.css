@@ -72,3 +72,47 @@ footer {
     color: #ffffff;
     font-size: 1.2em;
 }
+
+/* Responsividade para telas menores - 800x600 pra baixo */
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    header a {
+        font-size: 1.8em;
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    header h2 {
+        font-size: 1.8em;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #contato {
+        padding: 40px 20px;
+        gap: 25px;
+    }
+
+    #contato ul {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+
+    #contato li {
+        margin-bottom: 15px;
+        word-break: break-word;
+    }
+
+    footer {
+        padding: 20px 10px;
+        font-size: 1em;
+    }
+}
