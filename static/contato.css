@@ -81,10 +81,6 @@ footer {
         gap: 15px;
     }
 
-    body {
-        padding: 20%;
-    }
-
     header a {
         font-size: 1.8em;
         margin-left: 0;
@@ -100,7 +96,7 @@ footer {
     }
 
     #contato {
-        padding: 40px 20px;
+        padding: 60px 30px;
         gap: 25px;
     }
 
