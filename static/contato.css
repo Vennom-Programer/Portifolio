@@ -81,6 +81,11 @@ footer {
         gap: 15px;
     }
 
+    body {
+        height: auto;
+        flex-direction: column;
+    }
+
     header a {
         font-size: 1.8em;
         margin-left: 0;
