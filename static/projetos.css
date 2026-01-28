@@ -40,7 +40,7 @@ header h2:hover {
 }
 
 #projetos {
-    padding: 215px 0;
+    padding: 223.8px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -52,17 +52,18 @@ header h2:hover {
 }
 
 #projetos h3 {
-    font-size: 2.5em;
+    font-size: 2.6em;
     margin-bottom: 40px;
 }
 
 #projetos p{
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-bottom: 40px;
 }
 
 #projetos a{
     text-decoration: none;
+    font-size: 1.2em;
 
     color: #00e0ff;
     transition: 0.2s ease-in-out;
@@ -74,7 +75,7 @@ header h2:hover {
 }
 footer {
     background-color: #211e1e;
-    padding: 24px 0;
+    padding: 26px 0;
     text-align: center;
     color: #fff;
 
