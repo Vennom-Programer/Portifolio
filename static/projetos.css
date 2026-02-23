@@ -40,7 +40,7 @@ header h2:hover {
 }
 
 #projetos {
-    padding: 223.8px 0;
+    padding: 220px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -53,12 +53,12 @@ header h2:hover {
 
 #projetos h3 {
     font-size: 2.6em;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 #projetos p{
     font-size: 1.3em;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 #projetos a{
