@@ -1,0 +1,1 @@
+const girarImagem = document.getElementsByClassName("imagem");
